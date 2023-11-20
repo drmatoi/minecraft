@@ -2,9 +2,8 @@
 A script for Termux that makes it possible to host a Minecraft server via your Android phone.
 This script requires Termux (Updated F-Droid Version) and a bit of time :) <br>
 Install skript and UP-Time skript are mady by M4T01.
-<hr>
-THIS DOES NOT WORK ON ANDROID 11 !
-</hr>
+<br>
+<u> YOU CAN NOT USE THIS ON ANDROID 11 - SORRY!</u>
 ## Server Setup
 You can just copy-paste this into Termux and everything should work!
 * `pkg install openjdk-17`
