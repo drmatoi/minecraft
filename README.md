@@ -4,6 +4,7 @@ This script requires Termux (Updated F-Droid Version) and a bit of time :) <br>
 Install skript and UP-Time skript are mady by M4T01.
 <hr>
 THIS DOES NOT WORK ON ANDROID 11 !
+</hr>
 ## Server Setup
 You can just copy-paste this into Termux and everything should work!
 * `pkg install openjdk-17`
