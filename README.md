@@ -52,7 +52,7 @@ You can just copy-paste this into Termux and everything should work!
 * You can conig server with the command ` nano thefileyouwanttoedit.fileending ` to save the file [STRG + X]
 * EASY WAY - You can config the Server via. FTP Client.
 * `Server : sftp://192.292.212.22 (YOUR IP ADRESS) `
-* `Username: drmatoi) `
+* `Username:  does not matter- example: drmatoi `
 * `password: Password you set while launching the Server) `
 * `PORT: 8022 ( The standart port to connect with android)`
 * As long as the server is online you can connect!
