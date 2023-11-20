@@ -5,3 +5,9 @@ A script for Termux that makes it possible to host a Minecraft server via your A
 * `pkg install git`
 * `git clone https://github.com/drmatoi/launcher`
 * `bash serverinstaller.sh`
+
+* ## Normal Start [after first installation]
+
+* `pkg install git`
+* `git clone https://github.com/drmatoi/launcher`
+* `bash start.sh`
