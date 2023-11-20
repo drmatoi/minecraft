@@ -1,9 +1,16 @@
 # Android Minecraft Server Host - Termux 
 A script for Termux that makes it possible to host a Minecraft server via your Android phone. -  
-## FIRST  INSTALLATION [Termux]
+
+## Basics in Termux[Termux]
 
 * `pkg install openjdk-17`
 * `pkg install wget`
+* `pkg install openssh`
+* `sshd`
+* `passwd`
+
+
+
 
 * `cd ~/`
 * ` mkdir drmatoi_minecrafthost && drmatoi_minecrafthost `
