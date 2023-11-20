@@ -3,6 +3,7 @@ A script for Termux that makes it possible to host a Minecraft server via your A
 ## FIRST  INSTALLATION [Termux]
 
 * `pkg install openjdk-17`
+  *  `pkg install wget`
 
 * `cd ~/`
 * ` mkdir drmatoi_minecrafthost && drmatoi_minecrafthost `
