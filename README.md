@@ -68,7 +68,7 @@ A script for Termux that makes it possible to host a Minecraft server via your A
 The server is online as long as: The device on which it is running is connected to the Internet, there is enough memory and RAM, Termux is open and the script is not terminated.
 <br>
 Yes the Server can crash. Should it start again automatically? POSSIBLE!
-Create before launching a new file with  `nano alwaysonline.sh` but the skript from this github and save it with [STRG + X]
+Create before launching a new file with  `nano alwaysonline.sh` put the skript from this github and save it with [STRG + X]
 Now launch the Server with `./alwaysonline.sh` This will check the up-time of the server and relaunch it when its offline.
 
 
