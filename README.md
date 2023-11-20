@@ -1,8 +1,10 @@
-# Android Minecraft Server Host - Termux 
-A script for Termux that makes it possible to host a Minecraft server via your Android phone. -  
+# Host a Minecraft Server using Android - With Termux
+A script for Termux that makes it possible to host a Minecraft server via your Android phone.
+This script requires Termux (Updated F-Droid Version) and a bit of time :) <br>
+Install skript and UP-Time skript are mady by M4T01.
 
 ## Server Setup
-
+You can just copy-paste this into Termux and everything should work!
 * `pkg install openjdk-17`
 * `pkg install wget`
 * `pkg install openssh`
@@ -72,4 +74,8 @@ Create before launching a new file with  `nano alwaysonline.sh` put the skript f
 Now launch the Server with `./alwaysonline.sh` This will check the up-time of the server and relaunch it when its offline.
 
 
+## Extra Information
+Thanks for using my skript! <br>
+If you want to support me, star this post and share it! <br>
 
+Problems ore ideas ? Contact me! m4t01@proton.me or t.me/drmatoi 
