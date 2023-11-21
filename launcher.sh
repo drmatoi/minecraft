@@ -26,3 +26,51 @@ echo -e "
 ╠══════════════════════════════════════════════════════════╬════════════════════╣
 ║  $RedBugs ore problems? Write m4t01@proton.me           $White     ║     MIT LICENSE    ║
 ╠══════════════════════════════════════════════════════════╩════════════════════╣
+
+ $Red ALL SERVER COMMANDS  $White
+ $Red HOST COMMANDS $White
+ SETUP - This will setup the server for the first time 
+ START - this will start the server (Standart RAM)
+ /stop - this will stop server
+ Please use a FTP client to edit the Server settings and other files!
+ $Red FTP password is the password you set at the first setup $White
+ $Yellow More commands and settings? Visti github.com/drmatoi/minecraft
+ 
+
+
+  read ch
+   if [ $ch -eq SETUP ];then
+        cd $HOME
+        
+        pkg install openjdk-17
+
+pkg install wget
+
+pkg install openssh
+
+sshd
+
+passwd
+
+cd ~/
+
+mkdir drmatoi_minecrafthost && drmatoi_minecrafthost
+
+cd drmatoi_minecrafthost
+
+wget -O server.jar https://launcher.mojang.com/v1/objects/bb2b6b1aefcd70dfd1892149ac3a215f6c636b07/server.jar
+
+chmod +x server.jar
+
+ echo eula=true > eula.txt
+
+java -Xmx1024M -Xms1024M -jar server.jar nogui
+
+        exit
+
+         read ch
+   if [ $ch -eq START ];then
+        cd drmatoi_minecrafthost
+        java -Xmx1024M -Xms1024M -jar server.jar nogui
+      
+        exit
