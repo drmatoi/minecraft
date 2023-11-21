@@ -10,8 +10,6 @@ Install skript and UP-Time skript are mady by M4T01.
 Copy paste this into Termux
 * `pkg install git`
 * `git clone https://github.com/drmatoi/minecraft`
-* `ls`
-* `cd drmatoi_minecrafthost`
 * `bash launcher.sh`
 * This is the fastest way!
 
