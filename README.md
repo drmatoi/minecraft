@@ -5,7 +5,17 @@ This script requires Termux (Updated F-Droid Version) and a bit of time :) <br>
 Install skript and UP-Time skript are mady by M4T01.
 <br>
 <u> YOU CAN NOT USE THIS ON ANDROID 11 - SORRY!</u>
-## Server Setup
+
+## Start the  Launcher
+Copy paste this into Termux
+* `pkg install git`
+* `git clone https://github.com/drmatoi/minecraft`
+* `ls`
+* `cd minecraft`
+* `bash launcher.sh`
+* This is the fastest way!
+* 
+## Server Setup without Launcher
 You can just copy-paste this into Termux and everything should work!
 * `pkg install openjdk-17`
 * `pkg install wget`
@@ -25,7 +35,7 @@ You can just copy-paste this into Termux and everything should work!
 * ` java -Xmx1024M -Xms1024M -jar server.jar nogui `
 
 
-*  ## Launch Server [Server already setup]
+*  ## Launch Server without Launcher [Server already setup]
 *  open Termux
 *  ` cd drmatoi_minecrafthost `
 *  ` java -Xmx1024M -Xms1024M -jar server.jar nogui `
