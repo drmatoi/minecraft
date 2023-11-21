@@ -34,13 +34,12 @@ echo -e "
  /stop - this will stop server
  Please use a FTP client to edit the Server settings and other files!
  $Red FTP password is the password you set at the first setup $White
- $Yellow More commands and settings? Visti github.com/drmatoi/minecraft
+ $Yellow More commands and settings? Visti github.com/drmatoi/minecraft "
  
 
 
   read ch
-   if [ $ch -eq SETUP ];then
-        cd $HOME
+   if [ $ch -eq SETUP ];the
         
         pkg install openjdk-17
 
