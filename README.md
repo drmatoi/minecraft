@@ -14,7 +14,7 @@ Copy paste this into Termux
 * `cd minecraft`
 * `bash launcher.sh`
 * This is the fastest way!
-* 
+
 ## Server Setup without Launcher
 You can just copy-paste this into Termux and everything should work!
 * `pkg install openjdk-17`
