@@ -18,9 +18,6 @@ You can just copy-paste this into Termux and everything should work!
 * `pkg install openjdk-17`
 * `pkg install wget`
 * `pkg install openssh`
-* `sshd`
-* `passwd`
-
 * `cd ~/`
 * ` mkdir drmatoi_minecrafthost && drmatoi_minecrafthost `
 * ` cd drmatoi_minecrafthost `
