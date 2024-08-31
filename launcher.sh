@@ -63,6 +63,18 @@ chmod +x server.jar
 
 java -Xmx4G -Xms4G -jar server.jar nogui
         exit
+elif [ $ch -eq 9 ];then
+        cd instahacks
+        bash venom.sh
+  
+
+        exit
+        
+    else
+        echo -e "\e[4;32m Invalid Input !!! \e[0m"
+        pause
+    fi
+done
 
  
                      
