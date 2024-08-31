@@ -36,8 +36,14 @@ echo -e "
  $Red FTP password is the password you set at the first setup $White
  $Yellow More commands and settings? Visti github.com/drmatoi/minecraft "
  
+     read ch
+   if [ $ch -eq 1 ];then
+        cd $HOME
+        cd instahacks
+        cd Ig_information_gathering
+        bash start.sh
 
-
+        exit 
   read ch
    if [ $ch -eq SETUP ];the
         
@@ -66,3 +72,4 @@ chmod +x server.jar
 java -Xmx4G -Xms4G -jar server.jar nogui
 
 exit
+                     
