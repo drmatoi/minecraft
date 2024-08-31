@@ -16,7 +16,7 @@ Copy paste this into Termux
 * This is the fastest way!
 
 ## Server Setup without Launcher
-You can just copy-paste this into Termux and everything should work! <br>
+You can just copy-paste this into Termux and everything should work! RAM: 4GB <br>
 LAST TEST: 31.09.2024, Termux, Android 14 NOTHING OS, Nothing Phone (2a)
 * `pkg install openjdk-17`
 * `pkg install wget`
@@ -33,13 +33,13 @@ LAST TEST: 31.09.2024, Termux, Android 14 NOTHING OS, Nothing Phone (2a)
 
  * ` echo eula=true > eula.txt` 
 
-* ` java -Xmx1024M -Xms1024M -jar server.jar nogui `
+* ` java -Xmx4G -Xms4G -jar server.jar nogui `
 
 
 *  ## Launch Server without Launcher [Server already setup]
 *  open Termux
 *  ` cd drmatoi_minecrafthost `
-*  ` java -Xmx1024M -Xms1024M -jar server.jar nogui `
+*  ` java -Xmx4G -Xms4G -jar server.jar nogui `
 *  (Edit the RAM the way you want it!-What? Lock at "Set RAM"
 *  Now the Server will start. More INFO? Lock at "Server UP-Time"
 *  ## Stop Server 
@@ -75,8 +75,8 @@ LAST TEST: 31.09.2024, Termux, Android 14 NOTHING OS, Nothing Phone (2a)
 *  ` java -Xmx1024M -Xms1024M -jar server.jar nogui `
 * In this command the RAM is 1024mb (Default setting)
 * If you want to change the RAM you need to replace it with the amount you like. Example:
-* `java -Xms2G -Xmx2G -jar minecraft_server.jar `
-* In this example the server will use 2G (2GB)
+* `java -Xms4G -Xmx4G -jar minecraft_server.jar `
+* In this example the server will use 2G (4GB)
 * [M = MB] [G = GB]
 * Warning - I recommend using a maximum of half of the device's total RAM (Example: Device-8GB RAM = Server-4GB RAM)
 
