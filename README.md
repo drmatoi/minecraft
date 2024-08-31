@@ -59,6 +59,8 @@ LAST TEST: 31.09.2024, Termux, Android 14 NOTHING OS, Nothing Phone (2a)
 *  ## Stop Server 
 *  ` /stop`
 *  Only works if the server is online.
+*  ![photo_3_2024-08-31_15-20-27](https://github.com/user-attachments/assets/43def0ac-6d6d-4c12-bac6-4eee9ee2bf3c)
+
 
 
    
