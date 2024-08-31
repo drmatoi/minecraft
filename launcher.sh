@@ -30,7 +30,7 @@ echo -e "
  $Red ALL SERVER COMMANDS  $White
  $Red HOST COMMANDS $White
  SETUP - This will setup the server for the first time 
- START - this will start the server (Standart RAM)
+ START - this will start the server (Standart RAM 4GB)
  /stop - this will stop server
  Please use a FTP client to edit the Server settings and other files!
  $Red FTP password is the password you set at the first setup $White
@@ -63,14 +63,14 @@ chmod +x server.jar
 
  echo eula=true > eula.txt
 
-java -Xmx1024M -Xms1024M -jar server.jar nogui
+java -Xmx4G -Xms4G -jar server.jar nogui
 
         exit
 
          read ch
    if [ $ch -eq START ];then
         cd drmatoi_minecrafthost
-        java -Xmx1024M -Xms1024M -jar server.jar nogui
+        java -Xmx4G -Xms4G -jar server.jar nogui
       
         exit
         
