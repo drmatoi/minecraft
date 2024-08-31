@@ -11,7 +11,7 @@ Copy paste this into Termux
 * `pkg install git`
 * `git clone https://github.com/drmatoi/minecraft`
 * `ls`
-  `cd minecraft`
+* `cd minecraft`
 * `bash launcher.sh`
 * This is the fastest way!
 
