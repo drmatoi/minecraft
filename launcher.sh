@@ -68,7 +68,7 @@ java -Xmx4G -Xms4G -jar server.jar nogui
         exit
 
          read ch
-   elif [ $ch -eq START ];then
+   if [ $ch -eq START ];then
         cd drmatoi_minecrafthost
         java -Xmx4G -Xms4G -jar server.jar nogui
       
