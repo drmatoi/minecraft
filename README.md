@@ -69,7 +69,9 @@ LAST TEST: 31.09.2024, Termux, Android 14 NOTHING OS, Nothing Phone (2a)
 * IP Adress of Server? - the IP addres of the device you use
 * (Warning) Change the IP to "STATIC" to prevent the ip from changing
 * We added the "SERVER IP" Option - open it to use M4T01Picker, with this tool you can see your IP address
-* ![photo_2_2024-08-31_15-20-27](https://github.com/user-attachments/assets/e45f59ec-0344-40be-9048-3f2aa6429bdf)
+* ![photo_2024-08-31_16-09-37](https://github.com/user-attachments/assets/ab576a91-5a78-4993-a7ff-1521bc0015f3)
+
+
 
  
 
