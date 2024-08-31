@@ -1,5 +1,5 @@
-#!/bin/bash
-$Red
+ #!/bin/bash
+
 # colour 
 Black="\033[1;30m"       # Black
 Red="\033[1;31m"         # Red
@@ -9,33 +9,55 @@ Blue="\033[1;34m"        # Blue
 Purple="\033[1;35m"      # Purple
 Cyan="\033[1;36m"        # Cyan
 White="\033[1;37m"       # White
-clear 
-echo -e "Launcher made by M4T01 - Version: Beta 1.0.1 \033[1;31m"
-sleep 1.2
 
-clear                                                                              
+apt-get update
+apt-get upgrade
+apt-get install python
+apt-get install python2
+clear
+echo -e "$Purple drmatoi/minecraft is launching... \e[1;34m"
+sleep 3.2
+clear
+  echo -e "$Red      
 
-echo -e "
-╔══════════════════════════════════════════════════════════╦════════════════════╗
-║             github.com/drmatoi/minecraft                 ║   $Purple LAUNCHER$Cyan     ║  
-║══════════════════════════════════════════════════════════╬════════════════════╣
-║        Host a Minecraft Server using Android             ║ TT: @freising      ║
-║                                                          ║ TG: @drmatoi       ║
-║                  Developed by M4T01                      ╠════════════════════╣               
-║                  drmatoi.github.io                       ║   Version B-1.0    ║
-╠══════════════════════════════════════════════════════════╬════════════════════╣
-║  $RedBugs ore problems? Write m4t01@proton.me           $White     ║     MIT LICENSE    ║
-╠══════════════════════════════════════════════════════════╩════════════════════╣
+  ⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⣀⣀⣀⣀⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⢀⣀⡿⠿⠿⠿⠿⠿⠿⢿⣀⣀⣀⣀⣀⡀⠀⠀
+⠀⠀⠀⠀⠀⠀⠸⠿⣇⣀⣀⣀⣀⣀⣀⣸⠿⢿⣿⣿⣿⡇⠀⠀Host a Minecraft Server using Android - With Termux
+⠀⠀⠀⠀⠀⠀⠀⠀⠻⠿⠿⠿⠿⠿⣿⣿⣀⡸⠿⢿⣿⡇⠀⠀ github.com/drmatoi/minecraft
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣤⣤⣿⣿⣿⣧⣤⡼⠿⢧⣤⡀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣤⣤⣿⣿⣿⣿⠛⢻⣿⡇⠀⢸⣿⡇
+⠀⠀⠀⠀⠀⠀⠀⠀⣤⣤⣿⣿⣿⣿⠛⠛⠀⢸⣿⡇⠀⢸⣿⡇
+⠀⠀⠀⠀⠀⠀⢠⣤⣿⣿⣿⣿⠛⠛⠀⠀⠀⢸⣿⡇⠀⢸⣿⡇
+⠀⠀⠀⠀⢰⣶⣾⣿⣿⣿⠛⠛⠀⠀⠀⠀⠀⠈⠛⢳⣶⡞⠛⠁
+⠀⠀⢰⣶⣾⣿⣿⣿⡏⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠉⠁⠀⠀
+⢰⣶⡎⠉⢹⣿⡏⠉⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⢸⣿⣷⣶⡎⠉⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠉⠉⠉⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+  \033[0m"
 
- $Red ALL SERVER COMMANDS  $White
- $Red HOST COMMANDS $White
- 1 - This will setup the server for the first time (4GB RAM) 
- START - this will start the server (Standart RAM 4GB)
- /stop - this will stop server
- Please use a FTP client to edit the Server settings and other files!
- $Red FTP password is the password you set at the first setup $White
- $Yellow More commands and settings? Visti github.com/drmatoi/minecraft "
- 
+
+    echo " "
+    echo -e "$Red                               ⫸$Purple Made by M4T01 $Red ⫷\033[0m"
+echo " "
+echo -e " $Green     |---------------------------------------------------------------------|"
+echo -e " $Green     ||----------------------------$Cyan [List] $Green---------------------------||"
+echo -e " $Green     ||                                                                   "
+echo -e " $Green     ||             $Purple==>$Yellow[1] SETUP Server - 4GB RAM$Green                    "
+echo -e " $Green     ||             $Purple==>️$Yellow[2] START Server - 4GB RAM$Green                       "
+echo -e " $Green     ||             $Purple==>$Yellow[3] STOP Server$Green                            "
+echo -e " $Green     ||             $Purple==>$Yellow[4] Server IP adress$Green               "
+echo -e " $Green     ||             $Purple==>$Yellow[5] SERVER UP-Time$Green                                  "
+echo -e " $Green     ||             $Purple==>$Yellow[6] Uninstall Launcher$Green                                  "
+echo -e " $Green     ||             $Purple==>$Yellow[7] About$Green                                          "
+echo -e " $Green     ||             $Purple==>$Yellow[8] Exit$Green                                           "
+echo -e " $Green     ||             $Purple==>$Yellow[9] Report Problems to my Telegram$Green                                        "
+echo -e " $Green     ||             $Purple==>$Yellow[999] Reset/Update Launcher$Green                                           "
+echo -e " $Green     ||                                                                   "                                                                                       
+echo -e " $Green     ||---------------------------$Cyan [select option] $Green-----------------------||"
+echo -e " $Green     |---------------------------------------------------------------------|"
+echo " "
+echo " "
+
     read ch
    if [ $ch -eq 1 ];then
         pkg install openjdk-17
@@ -60,16 +82,68 @@ chmod +x server.jar
 
  echo eula=true > eula.txt
 
-java -Xmx1024M -Xms1024M -jar server.jar nogui
+java -Xmx4G -Xms4G -jar server.jar nogui
 
         exit
     elif [ $ch -eq 2 ];then 
-         cd $HOME
-         git clone https://github.com/noob-hackers/ighack
-         cd $HOME/instahacks/ig_brute_force
-         bash setup
-         bash ighack.sh
+         cd drmatoi_minecrafthost
+
+java -Xmx4G -Xms4G -jar server.jar nogui
         
         exit
- 
-                     
+    elif [ $ch -eq 3 ];then
+        /stop
+
+        exit
+    elif [ $ch -eq 4 ];then
+        echo "Server IP adress [After 1. Server Setup]
+IP Adress of Server? - the IP addres of the device you use
+
+(Warning) Change the IP to "STATIC" to prevent the ip from changing"
+pkg install wget
+wget -qO- ifconfig.io
+
+        exit
+    elif [ $ch -eq 5 ];then
+        echo -e "\e[1;34m The server is online as long as: The device on which it is running is connected to the Internet,
+        there is enough memory and RAM, Termux is open and the script is not terminated.
+Yes the Server can crash. Should it start again automatically?
+POSSIBLE! Create before launching a new file with nano alwaysonline.sh put the skript from this github and save it with [STRG + X] 
+Now launch the Server with ./alwaysonline.sh This will check the up-time of the server and relaunch it when its offline."
+
+        cd $HOME
+
+        exit
+   elif [ $ch -eq 999 ];then
+ rm -rf minecraft
+git clone https://github.com/drmatoi/minecraft
+cd minecraft
+chmod +x launcher.sh
+./launcher.sh
+     
+        exit
+   elif [ $ch -eq 6 ];then 
+        cd $HOME
+        rm -rf minecraft
+        
+        exit
+   elif [ $ch -eq 7 ];then
+        echo -e "$Cyan How to Host a Minecraft Server on Android
+A script for Termux that makes it possible to host a Minecraft server via your Android phone. This script requires Termux (Updated F-Droid Version) and a bit of time :)
+Install skript and UP-Time skript are mady by M4T01.
+YOU CAN NOT USE THIS ON ANDROID 11 - SORRY! \e[1;36m"
+        cd $HOME
+
+        exit
+
+elif [ $ch -eq 9 ];then
+        $termux-open-url https://t.me/drmatoi
+  
+
+        exit
+        
+    else
+        echo -e "\e[4;32m Invalid Input !!! \e[0m"
+        pause
+    fi
+done
