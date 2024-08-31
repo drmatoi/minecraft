@@ -87,6 +87,15 @@ Yes the Server can crash. Should it start again automatically? POSSIBLE!
 Create before launching a new file with  `nano alwaysonline.sh` put the skript from this github and save it with [STRG + X]
 Now launch the Server with `./alwaysonline.sh` This will check the up-time of the server and relaunch it when its offline.
 
+## Need to Update/Reset the Launcher.
+type
+* `rm -rf minecraft`
+* `git clone https://github.com/drmatoi/minecraft`
+* `cd minecraft`
+* `chmod +x launcher.sh`
+* `./launcher.sh`
+<br>
+
 
 ## Extra Information
 This script also works on devices with little RAM but below 4GB RAM the performance will be poor.
