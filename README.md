@@ -6,7 +6,7 @@ Install skript and UP-Time skript are mady by M4T01.
 <br>
 <u> YOU CAN NOT USE THIS ON ANDROID 11 - SORRY!</u>
 
-## Start the  Launcher
+## Install and start the Launcher for the FIRST time
 Copy paste this into Termux
 * `pkg install git`
 * `git clone https://github.com/drmatoi/minecraft`
@@ -14,6 +14,11 @@ Copy paste this into Termux
 * `chmod +x launcher.sh`
 * `./launcher.sh`
 * This is the fastest way!
+## Launcher already installed?
+Open it with:
+* `cd minecraft`
+* `chmod +x launcher.sh`
+* `./launcher.sh`
 
 ## Server Setup without Launcher
 You can just copy-paste this into Termux and everything should work! RAM: 4GB <br>
