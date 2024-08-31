@@ -65,14 +65,10 @@ chmod +x server.jar
 
 java -Xmx4G -Xms4G -jar server.jar nogui
 
-        exit
-if [ $ch -eq START ];the
-        cd drmatoi_minecrafthost
-        java -Xmx4G -Xms4G -jar server.jar nogui
-  
-
-        exit
-
-done
+  exit
         
-   
+    else
+        echo -e "\e[4;32m Invalid Input !!! \e[0m"
+        pause
+    fi
+done
