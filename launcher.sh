@@ -73,3 +73,9 @@ java -Xmx1024M -Xms1024M -jar server.jar nogui
         java -Xmx1024M -Xms1024M -jar server.jar nogui
       
         exit
+
+    else
+        echo -e "\e[4;32m Invalid Input !!! \e[0m"
+        pause
+    fi
+done
