@@ -76,6 +76,9 @@ LAST TEST: 31.09.2024, Termux, Android 14 NOTHING OS, Nothing Phone (2a)
 * * ` wget -O server.jar https://launcher.mojang.com/v1/objects/bb2b6b1aefcd70dfd1892149ac3a215f6c636b07/server.jar `
   * and replace * ` https://launcher.mojang.com/v1/objects/bb2b6b1aefcd70dfd1892149ac3a215f6c636b07/server.jar `
   * with the version you like! WARNING! If the .jar is not named server.jar you have to rename it!
+  * This is how the download looks like:
+  * ![photo_1_2024-08-31_15-20-27](https://github.com/user-attachments/assets/dd1a610a-4454-4c12-b3e8-5e15f072482b)
+
 
    *  ## Configure the server [After 1. Server Setup]
 * You can conig server with the command ` nano thefileyouwanttoedit.fileending ` to save the file [STRG + X]
@@ -83,6 +86,8 @@ LAST TEST: 31.09.2024, Termux, Android 14 NOTHING OS, Nothing Phone (2a)
 * `Server : sftp://192.292.212.22 (YOUR IP ADRESS) `
 * `Username:  does not matter- example: drmatoi `
 * `password: Password you set while launching the Server) `
+* ![-2147483648_-210244](https://github.com/user-attachments/assets/be017e47-9f73-4e49-9ca7-f94ba65f4426)
+
 * `PORT: 8022 ( The standart port to connect with android)`
 * As long as the server is online you can connect!
 
@@ -102,6 +107,9 @@ The server is online as long as: The device on which it is running is connected 
 Yes the Server can crash. Should it start again automatically? POSSIBLE!
 Create before launching a new file with  `nano alwaysonline.sh` put the skript from this github and save it with [STRG + X]
 Now launch the Server with `./alwaysonline.sh` This will check the up-time of the server and relaunch it when its offline.
+When the server is online it looks like this: ![photo_4_2024-08-31_15-20-27](https://github.com/user-attachments/assets/098938cc-6cc2-4b69-99ba-0233e91d1979)
+All other new Minecraft logs will be displayed below.
+
 
 ## Need to Update/Reset the Launcher.
 type
