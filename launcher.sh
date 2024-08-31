@@ -10,7 +10,7 @@ Purple="\033[1;35m"      # Purple
 Cyan="\033[1;36m"        # Cyan
 White="\033[1;37m"       # White
 clear 
-echo -e "Launcher made by M4T01 - Version: Beta 0.0.2 \033[1;31m"
+echo -e "Launcher made by M4T01 - Version: Beta 1.0.1 \033[1;31m"
 sleep 1.2
 
 clear                                                                              
