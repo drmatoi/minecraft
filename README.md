@@ -51,6 +51,7 @@ You can just copy-paste this into Termux and everything should work!
 
 * ## Change MC Versions [ Before and after 1. Server Setup]
 * You can use any Minecraft version before 1.17 ! ( Standart is Java 1.15.2)
+* This is because OpenJDK 17 is used here. Newer versions of OpenJDK can also be used to host newer versions of Minecraft.
 * Use other Minecraft Versions like PaperMC? Yes it works BUT it can impact the server performance!
 * How to change the Version? Easy! Look at
 * * ` wget -O server.jar https://launcher.mojang.com/v1/objects/bb2b6b1aefcd70dfd1892149ac3a215f6c636b07/server.jar `
