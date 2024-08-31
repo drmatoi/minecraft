@@ -1,4 +1,5 @@
 # Host a Minecraft Server using Android - With Termux
+* **If you like my work please leave a +1 star**  
 # How to Host a Minecraft Server on Android
 A script for Termux that makes it possible to host a Minecraft server via your Android phone.
 This script requires Termux (Updated F-Droid Version) and a bit of time :) <br>
