@@ -20,20 +20,12 @@ You can just copy-paste this into Termux and everything should work!
 * `pkg install openjdk-17`
 * `pkg install wget`
 * `pkg install openssh`
-* `sshd`
-* `passwd`
-
 * `cd ~/`
-* ` mkdir drmatoi_minecrafthost && drmatoi_minecrafthost `
-* ` cd drmatoi_minecrafthost `
-
-* ` wget -O server.jar https://launcher.mojang.com/v1/objects/bb2b6b1aefcd70dfd1892149ac3a215f6c636b07/server.jar `
-* ` chmod +x server.jar `
-
- * ` echo eula=true > eula.txt` 
-
-* ` java -Xmx1024M -Xms1024M -jar server.jar nogui `
-
+* `mkdir -p drmatoi_minecrafthost && cd drmatoi_minecrafthost`
+* `wget -O server.jar https://launcher.mojang.com/v1/objects/bb2b6b1aefcd70dfd1892149ac3a215f6c636b07/server.jar`
+* `chmod +x server.jar`
+* `echo "eula=true" > eula.txt`
+* `java -Xmx1024M -Xms1024M -jar server.jar nogui`
 
 *  ## Launch Server without Launcher [Server already setup]
 *  open Termux
