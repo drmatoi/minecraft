@@ -87,9 +87,11 @@ java -Xmx4G -Xms4G -jar server.jar nogui
         exit
     elif [ $ch -eq 2 ];then 
          
- 
- chmod +x server.jar
-java -Xmx4G -Xms4G -jar server.jar nogui
+ while true
+do
+java -Xms4G -Xmx4G -jar server.jar 
+sleep 1 
+done
         
         exit
     elif [ $ch -eq 3 ];then
