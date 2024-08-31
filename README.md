@@ -5,7 +5,8 @@ This script requires Termux (Updated F-Droid Version) and a bit of time :) <br>
 
 <br>
 <u> YOU CAN NOT USE THIS ON ANDROID 11 - SORRY!</u> <br>
-## KNOWN ISSUES
+
+# KNOWN ISSUES
 * When you query the IP address in the launcher, the necessary package is downloaded but the IP address is not displayed. <br>
 * After the initial setup and stopping of the server, the server.jar file cannot be found when the launcher is started again using START option 2.<br>
 * With launcher option 9, the error message "./launcher.sh: line 139: -open-url: command not found" appears on some devices. <br>
