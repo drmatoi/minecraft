@@ -39,7 +39,7 @@ echo -e "
 
 
   read ch
-   elif [ $ch -eq SETUP ];the
+   if [ $ch -eq SETUP ];the
         
         pkg install openjdk-17
 
@@ -68,7 +68,7 @@ java -Xmx4G -Xms4G -jar server.jar nogui
         exit
 
          read ch
-   if [ $ch -eq START ];then
+   elif [ $ch -eq START ];then
         cd drmatoi_minecrafthost
         java -Xmx4G -Xms4G -jar server.jar nogui
       
