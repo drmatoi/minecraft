@@ -99,8 +99,13 @@ done
 
         exit
     elif [ $ch -eq 4 ];then
-        pkg install dnsutils 
-        dig +short myip.opendns.com @resolver1.opendns.com
+        apt-get install python3
+
+git clone https://github.com/drmatoi/M4T01Picker.git
+
+cd M4T01Picker
+
+python3 ipicker.py
 
         exit
     elif [ $ch -eq 5 ];then
