@@ -88,6 +88,7 @@ Now launch the Server with `./alwaysonline.sh` This will check the up-time of th
 
 
 ## Extra Information
+This script also works on devices with little RAM but below 4GB RAM the performance will be poor.
 Thanks for using my skript! <br>
 If you want to support me, star this post and share it! <br>
 
