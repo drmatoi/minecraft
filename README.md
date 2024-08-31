@@ -68,6 +68,10 @@ LAST TEST: 31.09.2024, Termux, Android 14 NOTHING OS, Nothing Phone (2a)
 * ## Server IP adress [After 1. Server Setup]
 * IP Adress of Server? - the IP addres of the device you use
 * (Warning) Change the IP to "STATIC" to prevent the ip from changing
+* We added the "SERVER IP" Option - open it to use M4T01Picker, with this tool you can see your IP address
+* ![photo_2_2024-08-31_15-20-27](https://github.com/user-attachments/assets/e45f59ec-0344-40be-9048-3f2aa6429bdf)
+
+ 
 
 * ## Change MC Versions [ Before and after 1. Server Setup]
 * You can use any Minecraft version before 1.17 ! ( Standart is Java 1.15.2)
