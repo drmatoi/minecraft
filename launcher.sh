@@ -86,7 +86,14 @@ java -Xmx4G -Xms4G -jar server.jar nogui
 
         exit
     elif [ $ch -eq 2 ];then 
-         cd drmatoi_minecrafthost
+         cd ~/
+
+mkdir drmatoi_minecrafthost && drmatoi_minecrafthost
+
+cd drmatoi_minecrafthost
+
+wget -O server.jar
+ 
  chmod +x server.jar
 java -Xmx4G -Xms4G -jar server.jar nogui
         
