@@ -16,7 +16,8 @@ Copy paste this into Termux
 * This is the fastest way!
 
 ## Server Setup without Launcher
-You can just copy-paste this into Termux and everything should work!
+You can just copy-paste this into Termux and everything should work! <br>
+LAST TEST: 31.09.2024, Termux, Android 14 NOTHING OS, Nothing Phone (2a)
 * `pkg install openjdk-17`
 * `pkg install wget`
 * `pkg install openssh`
