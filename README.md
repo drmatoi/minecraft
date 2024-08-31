@@ -24,6 +24,10 @@ Open it with:
 * `cd minecraft`
 * `chmod +x launcher.sh`
 * `./launcher.sh`
+## Launcher already installed?
+Appearance of the launcher (may vary with new updates)
+![photo_2_2024-08-31_15-20-27](https://github.com/user-attachments/assets/dfbdcf88-e0c1-40af-abd6-9152dfb99d0f)
+
 
 ## Server Setup without Launcher
 You can just copy-paste this into Termux and everything should work! RAM: 4GB <br>
