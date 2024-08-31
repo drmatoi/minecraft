@@ -99,6 +99,7 @@ type
 * `cd minecraft`
 * `chmod +x launcher.sh`
 * `./launcher.sh`
+* THIS WILL ALSO DELETE YOUR WORLD.
 <br>
 
 
