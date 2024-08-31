@@ -22,7 +22,7 @@ echo -e "
 ║        Host a Minecraft Server using Android             ║ IG: @drmatoi       ║
 ║                                                          ║ TG: @drmatoi       ║
 ║                  Developed by M4T01                      ╠════════════════════╣               
-║                  drmatoi.github.io                       ║   Version B-0.1    ║
+║                  drmatoi.github.io                       ║   Version B-1.0    ║
 ╠══════════════════════════════════════════════════════════╬════════════════════╣
 ║  $RedBugs ore problems? Write m4t01@proton.me           $White     ║     MIT LICENSE    ║
 ╠══════════════════════════════════════════════════════════╩════════════════════╣
