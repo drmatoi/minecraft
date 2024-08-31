@@ -99,12 +99,8 @@ done
 
         exit
     elif [ $ch -eq 4 ];then
-        echo "Server IP adress [After 1. Server Setup]
-IP Adress of Server? - the IP addres of the device you use
-
-(Warning) Change the IP to "STATIC" to prevent the ip from changing"
-pkg install wget
-wget -qO- ifconfig.io
+        pkg install dnsutils 
+        dig +short myip.opendns.com @resolver1.opendns.com
 
         exit
     elif [ $ch -eq 5 ];then
