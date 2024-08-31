@@ -19,7 +19,7 @@ echo -e "
 ╔══════════════════════════════════════════════════════════╦════════════════════╗
 ║             github.com/drmatoi/minecraft                 ║   $Purple LAUNCHER$Cyan     ║  
 ║══════════════════════════════════════════════════════════╬════════════════════╣
-║        Host a Minecraft Server using Android             ║ IG: @drmatoi       ║
+║        Host a Minecraft Server using Android             ║ TT: @freising      ║
 ║                                                          ║ TG: @drmatoi       ║
 ║                  Developed by M4T01                      ╠════════════════════╣               
 ║                  drmatoi.github.io                       ║   Version B-1.0    ║
@@ -29,7 +29,7 @@ echo -e "
 
  $Red ALL SERVER COMMANDS  $White
  $Red HOST COMMANDS $White
- SETUP - This will setup the server for the first time 
+ SETUP - This will setup the server for the first time (4GB RAM) 
  START - this will start the server (Standart RAM 4GB)
  /stop - this will stop server
  Please use a FTP client to edit the Server settings and other files!
