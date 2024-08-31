@@ -72,7 +72,7 @@ if [ $ch -eq START ];the
   
 
         exit
- fi
+
 done
         
    
