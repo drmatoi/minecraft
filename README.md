@@ -5,6 +5,11 @@ This script requires Termux (Updated F-Droid Version) and a bit of time :) <br>
 Install skript and UP-Time skript are mady by M4T01.
 <br>
 <u> YOU CAN NOT USE THIS ON ANDROID 11 - SORRY!</u>
+## KNOWN ISSUES!
+* When you query the IP address in the launcher, the necessary package is downloaded but the IP address is not displayed.
+* After the initial setup and stopping of the server, the server.jar file cannot be found when the launcher is started again using START option 2.
+* With launcher option 9, the error message "./launcher.sh: line 139: -open-url: command not found" appears on some devices. <br>
+I'm already working on solving these problems. If you have any tips, feel free to share them in the "Issue" tab, thanks!
 
 ## Install and start the Launcher for the FIRST time
 Copy paste this into Termux
