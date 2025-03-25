@@ -15,7 +15,8 @@ apt-get upgrade
 apt-get install python
 apt-get install python2
 clear
-echo -e "$Purple drmatoi/minecraft  v2.0  is launching... \e[1;34m"
+echo -e "$Yellow drmatoi/minecraft  v3.0  is launching... \e[1;34m"
+echo -e "$Red Errors may still occur during use! \e[1;34m"
 sleep 3.2
 clear
   echo -e "$Red      
@@ -23,7 +24,7 @@ clear
   ⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⣀⣀⣀⣀⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⢀⣀⡿⠿⠿⠿⠿⠿⠿⢿⣀⣀⣀⣀⣀⡀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠸⠿⣇⣀⣀⣀⣀⣀⣀⣸⠿⢿⣿⣿⣿⡇⠀⠀Host a Minecraft Server using Android - With Termux
-⠀⠀⠀⠀⠀⠀⠀⠀⠻⠿⠿⠿⠿⠿⣿⣿⣀⡸⠿⢿⣿⡇⠀⠀ github.com/drmatoi/minecraft Version 2.0.0
+⠀⠀⠀⠀⠀⠀⠀⠀⠻⠿⠿⠿⠿⠿⣿⣿⣀⡸⠿⢿⣿⡇⠀⠀ github.com/drmatoi/minecraft Version 3.0.0
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣤⣤⣿⣿⣿⣧⣤⡼⠿⢧⣤⡀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣤⣤⣿⣿⣿⣿⠛⢻⣿⡇⠀⢸⣿⡇
 ⠀⠀⠀⠀⠀⠀⠀⠀⣤⣤⣿⣿⣿⣿⠛⠛⠀⢸⣿⡇⠀⢸⣿⡇
@@ -141,7 +142,7 @@ YOU CAN NOT USE THIS ON ANDROID 11 - SORRY! \e[1;36m"
         exit
 
 elif [ $ch -eq 9 ];then
-        $termux-open-url https://t.me/drmatoi
+        xdg-open https://t.me/drmatoi
   
 
         exit
