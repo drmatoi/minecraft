@@ -5,13 +5,16 @@ A script for Termux that makes it possible to host a Minecraft server via your A
 This script requires Termux (Updated F-Droid Version) and a bit of time :) <br>
 
 <br>
-<u> YOU CAN NOT USE THIS ON ANDROID 11 - SORRY!</u> <br>
+<u><b></b> YOU CAN NOT USE THIS ON ANDROID 11 - SORRY!</u></b> <br>
 
-# KNOWN ISSUES
-* When you query the IP address in the launcher, the necessary package is downloaded but the IP address is not displayed. <br>
-* After the initial setup and stopping of the server, the server.jar file cannot be found when the launcher is started again using START option 2.<br>
-* With launcher option 9, the error message "./launcher.sh: line 139: -open-url: command not found" appears on some devices. <br>
-I'm already working on solving these problems. If you have any tips, feel free to share them in the "Issue" tab, thanks!
+# Changelog for Version 3.0.0
+* removing ABOUT because it is unnecessary <br>
+* Adding a direct link to the option to access my Telegram account for questions<br>
+* removing SERVER UP-TIME because it is unnecessary <br>
+* Remove alwaysonline.sh because the script is now included in the launcher <br>
+* this script only works with Minecraft version 1.15.2 <br>
+* remove EXIT because it also works easier with the command "stop"<br>
+For further ideas or problems, write them in Issues or write to me on my Telegram, thanks!
 
  Install and start the Launcher for the FIRST time
 Copy paste this into Termux
