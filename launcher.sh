@@ -153,9 +153,8 @@ chmod +x launcher.sh
      
         exit
    elif [ $ch -eq 6 ];then 
-        cd $HOME
-        rm -rf minecraft
-        
+        echo -e "$RED Delete Launcher? Type cd $HOME and rm -rf minecraft \e[1;34m"
+         echo -e "$RED This will delete THE LAUNCHER! \e[1;34m"
         exit
    
 
