@@ -31,7 +31,8 @@ Open it with:
 * `./launcher.sh`
 ## Launcher UI
 Appearance of the launcher (may vary with new updates)
-![photo_2_2024-08-31_15-20-27](https://github.com/user-attachments/assets/dfbdcf88-e0c1-40af-abd6-9152dfb99d0f)
+![photo_2025-03-25_15-29-06](https://github.com/user-attachments/assets/23b34a32-60ea-4f6a-9db5-5beea7ca04f1)
+
 
 
 
@@ -46,15 +47,16 @@ Appearance of the launcher (may vary with new updates)
 * ## Server IP adress [After 1. Server Setup]
 * IP Adress of Server? - the IP addres of the device you use
 * (Warning) Change the IP to "STATIC" to prevent the ip from changing
-* We added the "SERVER IP" Option - open it to use M4T01Picker, with this tool you can see your IP address
-* ![photo_2024-08-31_16-09-37](https://github.com/user-attachments/assets/ab576a91-5a78-4993-a7ff-1521bc0015f3)
+* The launcher will redirect you directly to a website where you can see everything you need to know, but check before launching otherwise the launch will be aborted!
+* ![image](https://github.com/user-attachments/assets/35ff42b3-d436-4934-bdab-96fb38bc22a0)
+ 
 
 
 
  
 
 * ## Change MC Versions?
-*Currently, in version 3.0.0, you CANNOT change the version. This is because it uses OpenJDK 17, which doesn't work with newer versions. In previous versions, using other versions only caused problems for users. However, I'm already working on making it possible to use newer versions as well!
+* Currently, in version 3.0.0, you CANNOT change the version. This is because it uses OpenJDK 17, which doesn't work with newer versions. In previous versions, using other versions only caused problems for users. However, I'm already working on making it possible to use newer versions as well!
 
 
 
