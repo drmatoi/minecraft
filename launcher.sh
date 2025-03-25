@@ -47,7 +47,6 @@ echo -e " $Green     ||             $Purple==>$Yellow[1] SETUP Server - 4GB RAM$
 echo -e " $Green     ||             $Purple==>️$Yellow[2] START Server - 4GB RAM$Green                       "
 echo -e " $Green     ||             $Purple==>$Yellow[3] STOP Server$Green                            "
 echo -e " $Green     ||             $Purple==>$Yellow[4] Server IP adress$Green               "
-echo -e " $Green     ||             $Purple==>$Yellow[5] SERVER UP-Time$Green                                  "
 echo -e " $Green     ||             $Purple==>$Yellow[6] Uninstall Launcher$Green                                  "
 echo -e " $Green     ||             $Purple==>$Yellow[8] Exit$Green                                           "
 echo -e " $Green     ||             $Purple==>$Yellow[9] Report Problems to my Telegram$Green                                        "
@@ -108,16 +107,7 @@ cd M4T01Picker
 python3 ipicker.py
 
         exit
-    elif [ $ch -eq 5 ];then
-        echo -e "\e[1;34m The server is online as long as: The device on which it is running is connected to the Internet,
-        there is enough memory and RAM, Termux is open and the script is not terminated.
-Yes the Server can crash. Should it start again automatically?
-POSSIBLE! Create before launching a new file with nano alwaysonline.sh put the skript from this github and save it with [STRG + X] 
-Now launch the Server with ./alwaysonline.sh This will check the up-time of the server and relaunch it when its offline."
-
-        cd $HOME
-
-        exit
+    
    elif [ $ch -eq 999 ];then
  rm -rf minecraft
 git clone https://github.com/drmatoi/minecraft
