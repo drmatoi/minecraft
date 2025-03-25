@@ -15,7 +15,7 @@ This script requires Termux (Updated F-Droid Version) and a bit of time :) <br>
 * this script only works with Minecraft version 1.15.2 <br>
 * remove EXIT because it also works easier with the command "stop"<br>
 For further ideas or problems, write them in Issues or write to me on my Telegram, thanks!
-
+## INSTALL LAUNCHER!
  Install and start the Launcher for the FIRST time
 Copy paste this into Termux
 * `pkg install git`
@@ -34,33 +34,7 @@ Appearance of the launcher (may vary with new updates)
 ![photo_2_2024-08-31_15-20-27](https://github.com/user-attachments/assets/dfbdcf88-e0c1-40af-abd6-9152dfb99d0f)
 
 
-## Server Setup without Launcher
-You can just copy-paste this into Termux and everything should work! RAM: 4GB <br>
-LAST TEST: 31.09.2024, Termux, Android 14 NOTHING OS, Nothing Phone (2a)
-* `pkg install openjdk-17`
-* `pkg install wget`
-* `pkg install openssh`
-* `sshd`
-* `passwd`
 
-* `cd ~/`
-* ` mkdir drmatoi_minecrafthost && drmatoi_minecrafthost `
-* ` cd drmatoi_minecrafthost `
-
-* ` wget -O server.jar https://launcher.mojang.com/v1/objects/bb2b6b1aefcd70dfd1892149ac3a215f6c636b07/server.jar `
-* ` chmod +x server.jar `
-
- * ` echo eula=true > eula.txt` 
-
-* ` java -Xmx4G -Xms4G -jar server.jar nogui `
-
-
-*  ## Launch Server without Launcher [Server already setup]
-*  open Termux
-*  ` cd drmatoi_minecrafthost `
-*  ` java -Xmx4G -Xms4G -jar server.jar nogui `
-*  (Edit the RAM the way you want it!-What? Lock at "Set RAM"
-*  Now the Server will start. More INFO? Lock at "Server UP-Time"
 *  ## Stop Server 
 *  ` /stop`
 *  Only works if the server is online.
