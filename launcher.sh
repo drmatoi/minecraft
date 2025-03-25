@@ -49,7 +49,6 @@ echo -e " $Green     ||             $Purple==>$Yellow[3] STOP Server$Green      
 echo -e " $Green     ||             $Purple==>$Yellow[4] Server IP adress$Green               "
 echo -e " $Green     ||             $Purple==>$Yellow[5] SERVER UP-Time$Green                                  "
 echo -e " $Green     ||             $Purple==>$Yellow[6] Uninstall Launcher$Green                                  "
-echo -e " $Green     ||             $Purple==>$Yellow[7] About$Green                                          "
 echo -e " $Green     ||             $Purple==>$Yellow[8] Exit$Green                                           "
 echo -e " $Green     ||             $Purple==>$Yellow[9] Report Problems to my Telegram$Green                                        "
 echo -e " $Green     ||             $Purple==>$Yellow[999] Reset/Update Launcher$Green                                           "
@@ -132,18 +131,13 @@ chmod +x launcher.sh
         rm -rf minecraft
         
         exit
-   elif [ $ch -eq 7 ];then
-        echo -e "$Cyan How to Host a Minecraft Server on Android
-A script for Termux that makes it possible to host a Minecraft server via your Android phone. This script requires Termux (Updated F-Droid Version) and a bit of time :)
-Install skript and UP-Time skript are mady by M4T01.
-YOU CAN NOT USE THIS ON ANDROID 11 - SORRY! \e[1;36m"
-        cd $HOME
-
-        exit
+   
 
 elif [ $ch -eq 9 ];then
         xdg-open https://t.me/drmatoi
-  
+       cd minecraft
+chmod +x launcher.sh
+./launcher.sh
 
         exit
         
