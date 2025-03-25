@@ -4,6 +4,8 @@
 A script for Termux that makes it possible to host a Minecraft server via your Android phone.
 This script requires Termux (Updated F-Droid Version) and a bit of time :) <br>
 
+Minecraft Version: 1.15.2
+
 <br>
 <u><b></b> YOU CAN NOT USE THIS ON ANDROID 11 - SORRY!</u></b> <br>
 
@@ -31,13 +33,13 @@ Open it with:
 * `./launcher.sh`
 ## Launcher UI
 Appearance of the launcher (may vary with new updates)
-* ![photo_2025-03-25_15-29-06](https://github.com/user-attachments/assets/23b34a32-60ea-4f6a-9db5-5beea7ca04f1)
+![photo_2025-03-25_15-29-06](https://github.com/user-attachments/assets/23b34a32-60ea-4f6a-9db5-5beea7ca04f1)
 
 
 
 
 *  ## Stop Server 
-*  ` /stop`
+*  `stop`
 *  Only works if the server is online.
 *  ![photo_3_2024-08-31_15-20-27](https://github.com/user-attachments/assets/43def0ac-6d6d-4c12-bac6-4eee9ee2bf3c)
 
