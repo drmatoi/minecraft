@@ -31,7 +31,7 @@ Open it with:
 * `./launcher.sh`
 ## Launcher UI
 Appearance of the launcher (may vary with new updates)
-![photo_2025-03-25_15-29-06](https://github.com/user-attachments/assets/23b34a32-60ea-4f6a-9db5-5beea7ca04f1)
+* ![photo_2025-03-25_15-29-06](https://github.com/user-attachments/assets/23b34a32-60ea-4f6a-9db5-5beea7ca04f1)
 
 
 
