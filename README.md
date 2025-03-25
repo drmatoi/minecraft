@@ -53,20 +53,12 @@ Appearance of the launcher (may vary with new updates)
 
  
 
-* ## Change MC Versions [ Before and after 1. Server Setup]
-* You can use any Minecraft version before 1.17 ! ( Standart is Java 1.15.2)
-* This is because OpenJDK 17 is used here. Newer versions of OpenJDK can also be used to host newer versions of Minecraft.
-* Use other Minecraft Versions like PaperMC? Yes it works BUT it can impact the server performance!
-* How to change the Version? Easy! Look at
-* * ` wget -O server.jar https://launcher.mojang.com/v1/objects/bb2b6b1aefcd70dfd1892149ac3a215f6c636b07/server.jar `
-  * and replace * ` https://launcher.mojang.com/v1/objects/bb2b6b1aefcd70dfd1892149ac3a215f6c636b07/server.jar `
-  * with the version you like! WARNING! If the .jar is not named server.jar you have to rename it!
-  * This is how the download looks like:
-  * ![photo_1_2024-08-31_15-20-27](https://github.com/user-attachments/assets/dd1a610a-4454-4c12-b3e8-5e15f072482b)
+* ## Change MC Versions?
+*Currently, in version 3.0.0, you CANNOT change the version. This is because it uses OpenJDK 17, which doesn't work with newer versions. In previous versions, using other versions only caused problems for users. However, I'm already working on making it possible to use newer versions as well!
 
 
-   *  ## Configure the server [After 1. Server Setup]
-* You can conig server with the command ` nano thefileyouwanttoedit.fileending ` to save the file [STRG + X]
+
+   *  ## Configure the server 
 * EASY WAY - You can config the Server via. FTP Client.
 * `Server : sftp://192.292.212.22 (YOUR IP ADRESS) `
 * `Username:  does not matter- example: drmatoi `
@@ -78,22 +70,15 @@ Appearance of the launcher (may vary with new updates)
 
  *  ## Set RAM [After 1. Server Setup]
  *  The amount of RAM you have depends on which command you launch with
-*  ` java -Xmx1024M -Xms1024M -jar server.jar nogui `
-* In this command the RAM is 1024mb (Default setting)
-* If you want to change the RAM you need to replace it with the amount you like. Example:
-* `java -Xms4G -Xmx4G -jar minecraft_server.jar `
-* In this example the server will use 2G (4GB)
-* [M = MB] [G = GB]
+*  `[1] ` 4GB RAM
+*  `[1] ` 8GB RAM
+*  `[1] ` 12 GB RAM
 * Warning - I recommend using a maximum of half of the device's total RAM (Example: Device-8GB RAM = Server-4GB RAM)
+* Termux and possibly the Android device will crash if you use to much RAM!
 
 ## Server UP-Time 
 The server is online as long as: The device on which it is running is connected to the Internet, there is enough memory and RAM, Termux is open and the script is not terminated.
 <br>
-Yes the Server can crash. Should it start again automatically? POSSIBLE!
-Create before launching a new file with  `nano alwaysonline.sh` put the skript from this github and save it with [STRG + X]
-Now launch the Server with `./alwaysonline.sh` This will check the up-time of the server and relaunch it when its offline.
-When the server is online it looks like this: ![photo_4_2024-08-31_15-20-27](https://github.com/user-attachments/assets/098938cc-6cc2-4b69-99ba-0233e91d1979)
-All other new Minecraft logs will be displayed below.
 
 
 ## Need to Update/Reset the Launcher.
@@ -103,9 +88,7 @@ type
 * `cd minecraft`
 * `chmod +x launcher.sh`
 * `./launcher.sh`
-* THIS WILL ALSO DELETE YOUR WORLD.
 <br>
-
 
 ## Extra Information
 This script also works on devices with little RAM but below 4GB RAM the performance will be poor.
