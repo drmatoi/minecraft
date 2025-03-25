@@ -98,13 +98,10 @@ done
 
         exit
     elif [ $ch -eq 4 ];then
-        apt-get install python3
-
-git clone https://github.com/drmatoi/M4T01Picker.git
-
-cd M4T01Picker
-
-python3 ipicker.py
+       xdg-open https://www.dein-ip-check.de/
+       cd minecraft
+chmod +x launcher.sh
+./launcher.sh 
 
         exit
     
