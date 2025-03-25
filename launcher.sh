@@ -38,17 +38,16 @@ clear
 
 
     echo " "
-    echo -e "$Red                               ⫸$Purple Made by M4T01 $Red ⫷\033[0m"
+    echo -e "$Red                               ⫸$Purple Minecraft Version 1.15.2 $Red ⫷\033[0m"
 echo " "
 echo -e " $Green     |---------------------------------------------------------------------|"
 echo -e " $Green     ||----------------------------$Cyan [List] $Green---------------------------||"
 echo -e " $Green     ||                                                                   "
 echo -e " $Green     ||             $Purple==>$Yellow[1] START Server - 4GB RAM$Green                    "
-echo -e " $Green     ||             $Purple==>️$Yellow[2] START Server - 4GB RAM$Green                       "
-echo -e " $Green     ||             $Purple==>$Yellow[3] STOP Server$Green                            "
+echo -e " $Green     ||             $Purple==>️$Yellow[2] START Server - 8GB RAM$Green                       "
+echo -e " $Green     ||             $Purple==>$Yellow[3] START Server - 12GB RAM$Green                           "
 echo -e " $Green     ||             $Purple==>$Yellow[4] Server IP adress$Green               "
 echo -e " $Green     ||             $Purple==>$Yellow[6] Uninstall Launcher$Green                                  "
-echo -e " $Green     ||             $Purple==>$Yellow[8] Exit$Green                                           "
 echo -e " $Green     ||             $Purple==>$Yellow[9] Report Problems to my Telegram$Green                                        "
 echo -e " $Green     ||             $Purple==>$Yellow[999] Reset/Update Launcher$Green                                           "
 echo -e " $Green     ||                                                                   "                                                                                       
@@ -85,16 +84,56 @@ java -Xmx4G -Xms4G -jar server.jar nogui
 
         exit
     elif [ $ch -eq 2 ];then 
-         
- while true
-do
-java -Xmx4G -Xms4G -jar server.jar nogui
+    pkg install openjdk-17
 
-done
-        
-        exit
+pkg install wget
+
+pkg install openssh
+
+sshd
+
+passwd
+
+cd ~/
+
+mkdir drmatoi_minecrafthost && drmatoi_minecrafthost
+
+cd drmatoi_minecrafthost
+
+wget -O server.jar https://launcher.mojang.com/v1/objects/bb2b6b1aefcd70dfd1892149ac3a215f6c636b07/server.jar
+
+chmod +x server.jar
+
+ echo eula=true > eula.txt
+
+java -Xmx8G -Xms8G -jar server.jar nogui
+
+exit
+
     elif [ $ch -eq 3 ];then
-        /stop
+        pkg install openjdk-17
+
+pkg install wget
+
+pkg install openssh
+
+sshd
+
+passwd
+
+cd ~/
+
+mkdir drmatoi_minecrafthost && drmatoi_minecrafthost
+
+cd drmatoi_minecrafthost
+
+wget -O server.jar https://launcher.mojang.com/v1/objects/bb2b6b1aefcd70dfd1892149ac3a215f6c636b07/server.jar
+
+chmod +x server.jar
+
+ echo eula=true > eula.txt
+
+java -Xmx12G -Xms12G -jar server.jar nogui
 
         exit
     elif [ $ch -eq 4 ];then
