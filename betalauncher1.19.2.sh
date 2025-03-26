@@ -24,11 +24,11 @@ clear
   ⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⣀⣀⣀⣀⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⢀⣀⡿⠿⠿⠿⠿⠿⠿⢿⣀⣀⣀⣀⣀⡀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠸⠿⣇⣀⣀⣀⣀⣀⣀⣸⠿⢿⣿⣿⣿⡇⠀⠀Host a Minecraft Server using Android - With Termux
-⠀⠀⠀⠀⠀⠀⠀⠀⠻⠿⠿⠿⠿⠿⣿⣿⣀⡸⠿⢿⣿⡇⠀⠀ github.com/drmatoi/minecraft beta 4.0 OpenJDK21
+⠀⠀⠀⠀⠀⠀⠀⠀⠻⠿⠿⠿⠿⠿⣿⣿⣀⡸⠿⢿⣿⡇⠀⠀ github.com/drmatoi/minecraft Beta 4.0 OpenJDK21
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣤⣤⣿⣿⣿⣧⣤⡼⠿⢧⣤⡀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣤⣤⣿⣿⣿⣿⠛⢻⣿⡇⠀⢸⣿⡇
-⠀⠀⠀⠀⠀⠀⠀⠀⣤⣤⣿⣿⣿⣿⠛⠛⠀⢸⣿⡇⠀⢸⣿⡇
-⠀⠀⠀⠀⠀⠀⢠⣤⣿⣿⣿⣿⠛⠛⠀⠀⠀⢸⣿⡇⠀⢸⣿⡇
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣤⣤⣿⣿⣿⣿⠛⢻⣿⡇⠀⢸⣿⡇ This version works with OpenJDK-21, so some bugs, 
+⠀⠀⠀⠀⠀⠀⠀⠀⣤⣤⣿⣿⣿⣿⠛⠛⠀⢸⣿⡇⠀⢸⣿⡇ launcher crashes, or other unwanted errors may still occur.
+⠀⠀⠀⠀⠀⠀⢠⣤⣿⣿⣿⣿⠛⠛⠀⠀⠀⢸⣿⡇⠀⢸⣿⡇ Due to this early stage of development, only the 8GB option is available so far.
 ⠀⠀⠀⠀⢰⣶⣾⣿⣿⣿⠛⠛⠀⠀⠀⠀⠀⠈⠛⢳⣶⡞⠛⠁
 ⠀⠀⢰⣶⣾⣿⣿⣿⡏⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠉⠁⠀⠀
 ⢰⣶⡎⠉⢹⣿⡏⠉⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
@@ -38,7 +38,7 @@ clear
 
 
     echo " "
-    echo -e "                   $Yellow Made by drmatoi$Red       ⫸$Purple TEST MINECRAFT VERSION 1.91.2 $Red ⫷\033[0m"
+    echo -e "                   $Yellow Made by drmatoi$Red       ⫸$Purple Minecraft Version 1.91.2 $Red ⫷\033[0m"
 echo " "
 echo -e " $Green     |---------------------------------------------------------------------|"
 echo -e " $Green     ||----------------------------$Cyan [List] $Green---------------------------||"
@@ -65,9 +65,9 @@ passwd
 
 cd ~/
 
-mkdir drmatoi_minecrafthost21 && drmatoi_minecrafthost21
+mkdir drmatoi_minecrafthost19 && drmatoi_minecrafthost19
 
-cd drmatoi_minecrafthost21
+cd drmatoi_minecrafthost19
 
 wget -O server.jar https://piston-data.mojang.com/v1/objects/f69c284232d7c7580bd89a5a4931c3581eae1378/server.jar
 
@@ -84,8 +84,8 @@ java -Xmx8G -Xms8G -jar server.jar nogui
  rm -rf minecraft
 git clone https://github.com/drmatoi/minecraft
 cd minecraft
-chmod +x betalauncher21.sh
-./betalauncher21.sh
+chmod +x betalauncher1.19.2.sh
+./betalauncher1.19.2.sh
      
         exit
         
