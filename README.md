@@ -1,5 +1,5 @@
 # How to Host A Minecraft Server using Android - With Termux
-* **If you like my work please leave a +1 star**  
+ **If you like my work please leave a +1 star**  
 A script for Termux that makes it possible to host a Minecraft server via your Android phone.<br>
 This script requires Termux (Updated F-Droid Version) Download: https://f-droid.org/de/packages/com.termux/ <br>
 
@@ -31,10 +31,10 @@ Appearance of the launcher (may vary with new updates)
 
 *  ## Stop Server and other Console commands
 *  `stop`
-*  Only works if the server is online.
-*  ![photo_3_2024-08-31_15-20-27](https://github.com/user-attachments/assets/43def0ac-6d6d-4c12-bac6-4eee9ee2bf3c)
-*  Andere Commands könne wie bei jedem üblichem Server über das Termux Terminal eingeben werden.
-*  ![-2147483648_-214054](https://github.com/user-attachments/assets/8a6fe155-265c-4ef7-900f-89015ab370db)
+Only works if the server is online.
+ ![photo_3_2024-08-31_15-20-27](https://github.com/user-attachments/assets/43def0ac-6d6d-4c12-bac6-4eee9ee2bf3c)
+Other commands can be entered via the Termux terminal, just like with any normal server.
+ ![-2147483648_-214054](https://github.com/user-attachments/assets/8a6fe155-265c-4ef7-900f-89015ab370db)
 
    *  ## Configure the server 
 * EASY WAY - You can config the Server via. FTP Client.
@@ -46,6 +46,28 @@ Appearance of the launcher (may vary with new updates)
 * `PORT: 8022 ( The standart port to connect with android)`
 * As long as the server is online you can connect!
 
+
+ *  ## Set RAM 
+ *  The amount of RAM you have depends on which command you launch with, you will see the available options when starting
+*  `[1] ` 4GB RAM
+*  `[1] ` 8GB RAM
+*  `[1] ` 12 GB RAM
+* Warning - I recommend using a maximum of half of the device's total RAM (Example: Device-8GB RAM = Server-4GB RAM)
+* Termux and possibly the Android device will crash if you use to much RAM
+
+* ## Change MC Versions?
+* In the new 4.0.0, you have three versions to choose from. I plan to add even more options in the future!
+
+## Server UP-Time 
+The server is online as long as: The device on which it is running is connected to the Internet, there is enough memory and RAM, Termux is open and the script is not terminated.
+<br>
+
+# Changelog for Version Beta 4.0.0
+* Adding a general menu that allows you to choose between 3 Minecraft versions
+* adding version 1.16.5 and 1.19.2
+* new START.sh file which is used for the launch
+
+  
 # Changelog for Version 3.0.0
 * removing ABOUT because it is unnecessary <br>
 * Adding a direct link to the option to access my Telegram account for questions<br>
@@ -53,35 +75,10 @@ Appearance of the launcher (may vary with new updates)
 * Remove alwaysonline.sh because the script is now included in the launcher <br>
 * this script only works with Minecraft version 1.15.2 <br>
 * remove EXIT because it also works easier with the command "stop"<br>
-For further ideas or problems, write them in Issues or write to me on my Telegram, thanks!
 
- 
-
-
-
- 
-
-* ## Change MC Versions?
-* Currently, in version 3.0.0, you CANNOT change the version. This is because it uses OpenJDK 17, which doesn't work with newer versions. In previous versions, using other versions only caused problems for users. However, I'm already working on making it possible to use newer versions as well!
-
-
-
-
- *  ## Set RAM [After 1. Server Setup]
- *  The amount of RAM you have depends on which command you launch with
-*  `[1] ` 4GB RAM
-*  `[1] ` 8GB RAM
-*  `[1] ` 12 GB RAM
-* Warning - I recommend using a maximum of half of the device's total RAM (Example: Device-8GB RAM = Server-4GB RAM)
-* Termux and possibly the Android device will crash if you use to much RAM!
-
-## Server UP-Time 
-The server is online as long as: The device on which it is running is connected to the Internet, there is enough memory and RAM, Termux is open and the script is not terminated.
-<br>
 
 
 ## Need to Update/Reset the Launcher.
-type
 * `rm -rf minecraft`
 * `git clone https://github.com/drmatoi/minecraft`
 * `cd minecraft`
@@ -90,7 +87,6 @@ type
 <br>
 
 ## Extra Information
-This script also works on devices with little RAM but below 4GB RAM the performance will be poor.
 Thanks for using my skript! <br>
 If you want to support me, star this post and share it! <br>
 
