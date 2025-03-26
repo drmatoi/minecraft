@@ -26,7 +26,8 @@ Appearance of the launcher (may vary with new updates)
 * ## Server IP adress [After 1. Server Setup]
 * IP Adress of Server? - the IP addres of the device you use
 * (Warning) Change the IP to "STATIC" to prevent the ip from changing
-* The launcher will redirect you directly to a website where you can see everything you need to know, but check before launching otherwise the launch will be aborted!
+* The launcher (1.15.2) will redirect you directly to a website where you can see everything you need to know, but check before launching otherwise the launch will be aborted!
+* You can also check it here https://www.dein-ip-check.de
 * ![image](https://github.com/user-attachments/assets/35ff42b3-d436-4934-bdab-96fb38bc22a0)
 
 *  ## Stop Server and other Console commands
