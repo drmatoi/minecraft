@@ -23,14 +23,14 @@ Copy paste this into Termux
 * `pkg install git`
 * `git clone https://github.com/drmatoi/minecraft`
 * `cd minecraft`
-* `chmod +x launcher.sh`
-* `./launcher.sh`
+* `chmod +x START.sh`
+* `./START.sh`
 * This is the fastest way!
 ## Launcher already installed?
 Open it with:
 * `cd minecraft`
-* `chmod +x launcher.sh`
-* `./launcher.sh`
+* `chmod +x START.sh`
+* `./START.sh`
 ## Launcher UI
 Appearance of the launcher (may vary with new updates)
 ![photo_2025-03-25_15-29-06](https://github.com/user-attachments/assets/23b34a32-60ea-4f6a-9db5-5beea7ca04f1)
