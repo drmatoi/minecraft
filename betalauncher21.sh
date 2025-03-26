@@ -38,7 +38,7 @@ clear
 
 
     echo " "
-    echo -e "                   $Yellow Made by drmatoi$Red       ⫸$Purple TEST MINECRAFT VERSION 1.21.5 $Red ⫷\033[0m"
+    echo -e "                   $Yellow Made by drmatoi$Red       ⫸$Purple TEST MINECRAFT VERSION 1.91.2 $Red ⫷\033[0m"
 echo " "
 echo -e " $Green     |---------------------------------------------------------------------|"
 echo -e " $Green     ||----------------------------$Cyan [List] $Green---------------------------||"
@@ -69,7 +69,7 @@ mkdir drmatoi_minecrafthost21 && drmatoi_minecrafthost21
 
 cd drmatoi_minecrafthost21
 
-wget -O server.jar https://piston-data.mojang.com/v1/objects/e6ec2f64e6080b9b5d9b471b291c33cc7f509733/server.jar
+wget -O server.jar https://piston-data.mojang.com/v1/objects/f69c284232d7c7580bd89a5a4931c3581eae1378/server.jar
 
 chmod +x server.jar
 
