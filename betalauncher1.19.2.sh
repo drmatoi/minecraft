@@ -38,7 +38,7 @@ clear
 
 
     echo " "
-    echo -e "                   $Yellow Made by drmatoi$Red       ⫸$Purple Minecraft Version 1.91.2 $Red ⫷\033[0m"
+    echo -e "                   $Yellow Made by drmatoi$Red       ⫸$Purple Minecraft Version 1.19.2 $Red ⫷\033[0m"
 echo " "
 echo -e " $Green     |---------------------------------------------------------------------|"
 echo -e " $Green     ||----------------------------$Cyan [List] $Green---------------------------||"
