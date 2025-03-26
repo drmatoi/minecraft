@@ -4,8 +4,8 @@
 A script for Termux that makes it possible to host a Minecraft server via your Android phone.
 This script requires Termux (Updated F-Droid Version) and a bit of time :) <br>
 
-Minecraft Version: 1.15.2
-
+Minecraft Version: 1.15.2<br>
+The current Launcher.sh file contains Minecraft version 1.15.2, this version works best and is the safest, the betalauncher.sh files are all still under development and may not work properly!
 <br>
 <u><b></b> YOU CAN NOT USE THIS ON ANDROID 11 - SORRY!</u></b> <br>
 
