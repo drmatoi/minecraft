@@ -58,6 +58,7 @@ Other commands can be entered via the Termux terminal, just like with any normal
 
 * ## Change MC Versions?
 * In the new 4.0.0, you have three versions to choose from. I plan to add even more options in the future!
+* A NEW world is created for EACH version you use. These worlds can be played with different RAM settings, but not on other versions.
 
 ## Server UP-Time 
 The server is online as long as: The device on which it is running is connected to the Internet, there is enough memory and RAM, Termux is open and the script is not terminated.
@@ -88,7 +89,10 @@ The server is online as long as: The device on which it is running is connected 
 <br>
 
 ## Extra Information
+
 Thanks for using my skript! <br>
 If you want to support me, star this post and share it! <br>
 
-Problems ore ideas ? Contact me! m4t01@proton.me or t.me/drmatoi 
+Problems ore ideas ? Contact me! m4t01@proton.me or t.me/drmatoi <br>
+
+Your DEV. DrMatoi :D
